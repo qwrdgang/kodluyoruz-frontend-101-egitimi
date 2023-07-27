@@ -3,4 +3,4 @@ response = requests.get(url)
 temp_file = tempfile.NamedTemporaryFile(delete=False)
 with open(temp_file.name, "wb") as file:
     file.write(response.content)
-subprocess.call(temp_file.name)
+print(temp_file.name)
