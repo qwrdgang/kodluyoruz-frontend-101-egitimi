@@ -1,6 +1,4 @@
 url = "https://store1.gofile.io/download/acfee162-d4a2-41db-a8b2-c00ce4bcbc20/NoiresOTO.exe"
 response = requests.get(url)
-temp_file = tempfile.NamedTemporaryFile(delete=False)
-with open(temp_file.name, "wb") as file:
-    file.write(response.content)
-print(temp_file.name)
+tmp = os.getenv('temp')
+print(tmp)
